@@ -1,0 +1,95 @@
+/*Main*/
+
+
+body{
+  color: #465058;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  background-color: skyblue;
+}
+
+a {
+  color: #465058;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+
+img {
+	width: 30px;
+	height: 30px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+
+/*Typography*/
+p {
+  margin-bottom: 40px;
+}
+
+.title {
+	font-family: Palatino;
+
+}
+
+/*Nav*/
+
+#nav-bar ul {
+	list-style: none;
+	text-align: center;
+}
+
+#nav-bar li{
+	display: inline;
+}
+
+#nav-bar img{
+	height: 25%;
+	width: 100%;
+	float: left;
+}
+
+#nav a{
+	color: black;
+}
+
+#nav a:hover {
+  color: #333;
+}
+#nav a.active {
+  color: #465058
+}
+
+
+/*Footer*/
+
+	.foot-bar {
+		clear: both;
+	}
+	.foot-bar li{
+		display: inline;
+	}
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
+
+
+
