@@ -5,34 +5,40 @@ body{
   color: #465058;
   font-size: 1em;
   font-weight: 200;
-  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-family: 'IM Fell English', serif;
   width: 100%;
   text-align: center;
   padding-top: 50px;
 }
 
 img {
-	width: 30px;
-	height: 30px;
+	max-height: 100%;
+	max-width: 100%;
 }
-
-ul li {
-  list-style-type: none;
+.banner{
+	height: 180px;
+	width: 100%;
+	background-size: contain;
 }
-
+.banner img{
+	height: 171px;
+	width: 861px;	
+}
 
 /*Typography*/
-p {
-  margin-bottom: 40px;
-}
 
-.title {
-	font-family: Palatino;
+#title {
+	font-family: 'Rye', cursive;
+	background-size: contain;
+	border: 1px, black;
 }
-
+#title img{
+	height: 75px;
+	width: 150px;
+}
 /*Nav*/
-
 #nav-bar ul {
+	font-family: 'Rye', cursive;
 	list-style: none;
 	text-align: center;
 }
@@ -40,13 +46,6 @@ p {
 #nav-bar li{
 	display: inline;
 }
-
-#nav-bar img{
-	height: 25%;
-	width: 100%;
-
-}
-
 #nav a{
 	color: black;
 }
@@ -58,16 +57,18 @@ p {
   color: #465058
 }
 
-#banner {
-}
-
 
 /*Footer*/
 
-	.foot-bar {
+	#foot-bar {
+		font-family: 'Rye', cursive;
 		clear: both;
 	}
-	.foot-bar li{
+	#foot-bar img{
+		height: 30px;
+		width: 30px;
+	}
+	#foot-bar li{
 		display: inline;
 	}
 
