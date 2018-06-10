@@ -1,3 +1,95 @@
+<<<<<<< HEAD
+/*Main*/
+
+
+body{
+  color: #465058;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.banner{
+	height: 180px;
+	width: 100%;
+	background-size: contain;
+}
+.banner img{
+	height: 171px;
+	width: 861px;	
+}
+
+/*Typography*/
+
+#title {
+	font-family: 'Rye', cursive;
+	background-size: contain;
+	border: 1px, black;
+}
+#title img{
+	height: 150px;
+	width: 300px;
+}
+/*Nav*/
+#nav-bar ul{
+	list-style: none;
+	text-align: center;
+}
+
+#nav-bar li{
+	font-family: 'Rye', cursive;
+	display: inline;
+}
+#nav a{
+	color: black;
+}
+
+#nav a:hover {
+  color: #333;
+}
+#nav a.active {
+  color: #465058
+}
+
+#about {
+	 margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+	overflow: auto;
+}
+
+/*Footer*/
+
+	#foot-bar {
+		font-family: 'Rye', cursive;
+		clear: both;
+	}
+	#foot-bar img{
+		height: 30px;
+		width: 30px;
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+=======
 /*Main*/
 
 
@@ -94,3 +186,4 @@ img {
 
 
 
+>>>>>>> 8621fa6d0831f9879c37fbd8b160d7aca34ed70d
